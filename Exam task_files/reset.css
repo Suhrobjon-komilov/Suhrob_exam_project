@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100%;
+
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    color: white;
+    background-color: #2BD0D0;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #9AE3E3;
+    
+}
+.black:hover{
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+}
+
+
